@@ -1,0 +1,372 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+    
+}
+
+body{
+    background-image: linear-gradient(to top, black, rgb(0, 0, 20), rgb(0, 0, 0));
+    height: 100vh;
+}
+/* Estilo geral do cabeçalho */
+.header {
+    position: fixed;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+}
+
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px;
+}
+
+/* Estilos do logo */
+.header a {
+    position: fixed;
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+}
+
+/* Float the link section to the right */
+.header-right {
+    float: right;
+}
+
+.logo img {
+    margin-left: 30px;
+    max-width: 100px;
+}
+
+/* Estilos da lista de links */
+.menu {
+
+    list-style: none;
+    display: flex;
+}
+
+.menu li {
+    margin-right: 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: gray;
+    transition: color 0.3s;
+}
+.menu a:hover {
+    color: white;
+}
+
+/* Estilos do botão de contato */
+.btn-contato {
+    margin-right: 5%;
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s, box-shadow 0.3s;
+    border-radius: 20px;
+}
+
+.btn-contato:hover {
+    background-color: rgb(0, 0, 255);
+    box-shadow: 0 0 20px rgb(60, 0, 255);
+}
+
+/* INICIO */
+.geilson {
+    margin-top: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.geilson img{
+    width: 30%;
+    border-color: blue;
+    border-width: 5px;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 300px;
+}
+.h1-geilson{
+    text-align: center;
+    color: white;
+}
+.p{
+    text-align: center;
+    color: white;
+}
+
+/* PROJETOS */
+
+.div-header h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+}
+
+
+.div-header{
+    border-color: blue;
+    border-width: 5px;
+    border-style: solid;
+    background-color: rgb(0, 0, 0);
+    border-radius: 30px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10%;
+    
+}
+
+.hr{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.divgeral{
+    border-color: blue;
+    border-width: 5px;
+    border-style: solid;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 50px;
+    margin-top: 50px;
+    background-image: linear-gradient(to top, black, rgb(0, 0, 20), rgb(0, 0, 0));
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+
+.div1{
+    border-color: rgb(0, 0, 0);
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 25px;
+    margin-top: 50px;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: rgb(40, 40, 255);
+}
+.div1 a {
+    text-decoration: none;
+    text-align: center;
+    padding: 20px;
+    color: rgb(0, 0, 0);
+}
+
+.div2{
+    border-color: rgb(0, 0, 0);
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 25px;
+    margin-top: 50px;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: rgb(40, 40, 255);
+}
+.div2 a{
+    text-decoration: none;
+    text-align: center;
+    padding: 20px;
+    color: rgb(0, 0, 0);
+}
+
+.div3{
+    border-color: rgb(0, 0, 0);
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 25px;
+    margin-top: 50px;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: rgb(40, 40, 255);
+}
+.div3 a{
+    text-decoration: none;
+    text-align: center;
+    padding: 20px;
+    color: rgb(0, 0, 0);
+}
+
+.div4{
+    border-color: rgb(0, 0, 0);
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 25px;
+    margin-top: 50px;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: rgb(40, 40, 255);
+}
+.div4 a{
+    text-decoration: none;
+    text-align: center;
+    padding: 20px;
+    color: rgb(0, 0, 0);
+}
+
+.div5{
+    border-color: rgb(0, 0, 0);
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 25px;
+    margin-top: 50px;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: rgb(40, 40, 255);
+}
+.div5 a{
+    text-decoration: none;
+    text-align: center;
+    padding: 20px;
+    color: rgb(0, 0, 0);
+}
+
+/* SOBRE MIM */
+
+
+.sobre-mim{
+    color: white;
+    text-align: center;
+}
+
+.testo-teste{
+    margin-top: 20px;
+    margin-right: 5%;
+    margin-left: 5%;
+    text-align: center;
+    color: white;
+}
+.p1{
+    margin-top: 20px;
+    margin-right: 5%;
+    margin-left: 5%;
+    text-align: center;
+    color: white;
+}
+
+.div-texto{
+    border-color: blue;
+    border-style: solid;
+    border-width:  5px;
+    margin-top: 5%;
+    border-radius: 50px;
+    background-color: rgb(0, 0, 0);
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+  
+/* REDES SOCIAIS */
+
+.icones-container {
+    display: flex;
+    justify-content: center; /* Centraliza os ícones horizontalmente */
+}
+
+.icones-container a {
+    margin: 0 20px; /* Espaçamento entre os ícones */
+}
+
+.icon img {
+    max-width: 40px; /* Ajuste o tamanho das imagens conforme necessário */
+    height: auto;
+    vertical-align: middle; /* Alinha verticalmente os ícones */
+}
+
+.redes{
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+.icons{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+footer{
+    padding: 40px;
+    text-align: center;
+    color: white;
+}
+
+
+@media screen and (max-width: 500px) {
+    /* Estilos para telas menores que 768px de largura */
+}
+@media (max-width: 10px) {
+    .fundo {
+        max-width: 0px; /* Ajuste conforme necessário */
+    }
+}
+/* Quando a tela for menor que 768px, empilhe os links do menu */
+@media screen and (max-width: 768px) {
+    .menu {
+        flex-direction: column;
+        display: none; /* Oculte o menu inicialmente */
+    }
+    .menu.active {
+        display: flex; /* Mostre o menu quando a classe 'active' for adicionada */
+    }
+}
+@media (max-width: 780px){
+    main{
+     height: auto;
+    }
+    main div{
+     width: 45%;
+     height: 100vh;
+    }
+    .header{
+        align-items: center;
+    }
+ }
+ @media (max-width: 576px){
+ 
+     main div{
+         width: 98%;
+     }
+ }
+ /* Adicione uma media query para telas menores que 500px */
+@media screen and (max-width: 500px) {
+    .header a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+    .header-right {
+        float: none;
+    }
+}
